@@ -43,7 +43,7 @@ footer {
   margin-bottom: 100px;
 }
 
-footer a {
+footer #footer-button {
   padding: 12px 20px;
   border-radius: 8px;
   background-color: rgb(250, 201, 39);
@@ -51,13 +51,18 @@ footer a {
   text-decoration: none;
 }
 
-footer p {
+footer p,
+#footer-link {
   color: rgb(131, 113, 149);
   margin-top: 30px;
 }
 
-footer a:hover,
-footer a:active {
+#footer-link:hover {
+  font-weight: 600;
+}
+
+footer #footer-button:hover,
+footer #footer-button:active {
   background-color: rgb(158, 109, 18);
   color: white;
 }
